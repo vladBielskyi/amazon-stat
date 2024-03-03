@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+      database: ${MONGO_DATABASE}
+amazon:
+  stat:
+    auth:
+      jwtSecret: ${JWT_SECRET}
+      jwtExpirationMs: "86400000"
